@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const { note } = require('./db/db.json');
+const { notes } = require('./db/db.json');
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
